@@ -6,7 +6,8 @@ function getOutput(){
 
 function volume_sphere(r) {
     //Write your code here
-	let vol = (4/3)*3.14*r*r*r
+	let vol = (4/3)*Math.PI*r*r*r
+	vol = vol.toFixed(4);
 	return vol
 } 
 /* console.log(volume_sphere(3)) */
